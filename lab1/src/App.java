@@ -27,10 +27,8 @@ public class App extends Application {
 
         Line mainLine = new Line(144, 25, 492, 25);
         configureLine(mainLine);
-
         Line firstDownLine = new Line(144, 25, 144, 80);
         configureLine(firstDownLine);
-
         Line secondDownLine = new Line(492, 24, 492, 80);
         configureLine(secondDownLine);
 
@@ -40,18 +38,16 @@ public class App extends Application {
             350d, 440d,
             720d, 420d
         });
-
         triangle.setStrokeLineJoin(StrokeLineJoin.ROUND);
         triangle.setFill(Color.LIGHTGRAY);
 
         Polygon polygon = new Polygon();
         polygon.getPoints().addAll(new Double[] {
-                335d, 215d,
-                180d, 460d,
-                30d, 405d,
-                60d, 170d
+            335d, 215d,
+            180d, 460d,
+            30d, 405d,
+            60d, 170d
         });
-
         polygon.setStrokeLineJoin(StrokeLineJoin.ROUND);
         polygon.setFill(Color.LIGHTGREEN);
 
